@@ -25,3 +25,7 @@ example using it as NtTerminateProcess
     indirectSyscall(Process, 0xDEADBEEF);
 
 ```
+
+Flaw
+
+it moves 32 down which could be diffrent if the ntdll is hooked lol
